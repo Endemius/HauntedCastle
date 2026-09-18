@@ -1,7 +1,0 @@
-*.class
-out/
-bin/
-target/
-build/
-.idea/
-*.iml
