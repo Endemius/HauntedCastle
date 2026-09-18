@@ -1,0 +1,27 @@
+ROOM entrance_hall
+ROOM library
+ROOM crypt
+ROOM secret_passage
+ROOM laboratory
+ROOM tower
+ROOM dungeon
+
+CONNECT entrance_hall library
+CONNECT library tower
+CONNECT entrance_hall laboratory
+CONNECT laboratory dungeon
+CONNECT dungeon crypt
+LEADS_TO library secret_passage
+LEADS_TO secret_passage crypt
+
+FIGHTER Sir_Roderick entrance_hall
+MAGE Elowen library
+VAMPIRE Count_Orlok crypt
+SKELETON Old_Bones dungeon
+SLIME Ooze laboratory
+
+ITEM iron_key entrance_hall
+ITEM ancient_tome library
+ITEM silver_dagger crypt
+ITEM glowing_potion laboratory
+ITEM brass_telescope tower
